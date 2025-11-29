@@ -229,7 +229,7 @@ const VideoScrollSequence: React.FC<VideoScrollSequenceProps> = ({
       ref={containerRef}
       className="video-scroll-container"
       style={{
-        width: "100vw",
+        width: "100%",
         height: pinHeight,
         position: "relative",
         overflow: "hidden",
@@ -270,22 +270,6 @@ const VideoScrollSequence: React.FC<VideoScrollSequenceProps> = ({
             }}
           />
         )}
-
-        {/* 加载中的提示，可以选择性保留 */}
-        {/* {isLoading && (
-          <div
-            style={{
-              position: "absolute",
-              zIndex: 5,
-              color: "white",
-              backgroundColor: "rgba(0,0,0,0.5)",
-              padding: "10px",
-              borderRadius: "5px",
-            }}
-          >
-            加载中... ({imageFrames.length} / {totalFrames} 帧)
-          </div>
-        )} */}
       </div>
 
       {/* 动画文本框元素 (保持不变) */}
