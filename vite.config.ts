@@ -18,6 +18,7 @@ export default defineConfig({
     port: 3000,
     open: true,
     cors: true,
+    host: '0.0.0.0',
     // 优化大量静态资源的加载
     headers: {
       'Cache-Control': 'public, max-age=31536000',

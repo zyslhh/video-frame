@@ -26,6 +26,7 @@ interface VideoScrollSequenceProps {
 
 // 假设的默认值
 const DEFAULT_FRAME_COUNT = 48;
+
 const DEFAULT_FRAME_PATH_FORMAT = (index: number) =>
   `https://static-res-www.imoo.com/US/images/products/x10/pc/animate1-1/animate1-${String(
     index
@@ -276,7 +277,7 @@ const VideoScrollSequence: React.FC<VideoScrollSequenceProps> = ({
       <div ref={textBoxRef} className="text-box">
         {/* ... 您的文本内容 ... */}
         <div className="gradient-text">
-          <div className="text-1 text-[#ffffff]">imoo's first</div>
+          <div className="text-1 text-[#fff]">imoo's first</div>
           <div className="text-2">detachable</div>
           <div className="text-3">watch phone!</div>
         </div>

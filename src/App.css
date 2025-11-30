@@ -18,6 +18,9 @@ body {
   background-color: #000;
 }
 
+.video-scroll-container{
+  height: 100vh;
+}
 canvas {
   height: 100vh;
   width: 100vw;
@@ -34,6 +37,7 @@ canvas {
   position: absolute;
   left: 10vw;
   top: 10vw;
+  opacity: 0;
 }
 .text-box .gradient-text .text-1 {
   color: #fff;
