@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
+import tailwindcss from '@tailwindcss/vite'
+
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -8,7 +10,7 @@ export default defineConfig({
   // 如果部署到 https://zyslhh.github.io/video-frame/，则使用 "/video-frame/"
   // 如果部署到自定义域名，则使用 "/"
   base: "/video-frame/",
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
 
   // 路径别名配置
   resolve: {

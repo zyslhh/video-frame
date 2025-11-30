@@ -23,7 +23,6 @@ interface VideoScrollSequenceProps {
   /** 组件在屏幕上固定时的 CSS 高度 */
   pinHeight?: string;
 }
-
 // 假设的默认值
 const DEFAULT_FRAME_COUNT = 48;
 
@@ -277,7 +276,7 @@ const VideoScrollSequence: React.FC<VideoScrollSequenceProps> = ({
       <div ref={textBoxRef} className="text-box">
         {/* ... 您的文本内容 ... */}
         <div className="gradient-text">
-          <div className="text-1 text-[#fff]">imoo's first</div>
+          <div className="text-1 text-white">imoo's first</div>
           <div className="text-2">detachable</div>
           <div className="text-3">watch phone!</div>
         </div>
