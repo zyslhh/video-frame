@@ -7,7 +7,7 @@ export default defineConfig({
   // GitHub Pages 部署配置
   // 如果部署到 https://username.github.io/video-frame/，则使用 "/video-frame/"
   // 如果部署到自定义域名，则使用 "/"
-  base: "/video-frame/",
+  // base: "/video-frame/",
   plugins: [react()],
 
   // 路径别名配置
