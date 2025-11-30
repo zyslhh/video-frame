@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "'/video-frame/'",
+  base: "/video-frame/",
   plugins: [react()],
 
   // 路径别名配置
